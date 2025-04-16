@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dream Clicks Photography</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dream Clicks Photography</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <!-- Header -->
-    <header>
-        <div class="logo">
-            <h1>Dream Clicks</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<body class="bg-white text-gray-800 font-sans">
+  <header class="p-6 shadow-md">
+    <div class="max-w-5xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Dream Clicks</h1>
+      <nav class="space-x-4">
+        <a href="#" class="hover:underline">Home</a>
+        <a href="#portfolio" class="hover:underline">Portfolio</a>
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Home Section -->
-    <section id="home">
-        <div class="hero-image">
-            <h2>Capturing Moments, Creating Memories</h2>
-        </div>
+  <main class="max-w-5xl mx-auto p-6">
+    <section class="text-center my-12">
+      <h2 class="text-3xl font-semibold">Capturing Moments, Creating Memories</h2>
+      <p class="text-gray-500 mt-2">Explore the world through my lens</p>
     </section>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <div class="gallery">
-            <!-- Add images here -->
-            <img src="image1.jpg" alt="Photography Sample 1">
-            <img src="image2.jpg" alt="Photography Sample 2">
-            <img src="image3.jpg" alt="Photography Sample 3">
-        </div>
+    <section id="portfolio" class="my-12">
+      <h3 class="text-2xl font-medium mb-4">Portfolio</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <img src="https://via.placeholder.com/400x300" alt="Sample 1" class="rounded shadow">
+        <img src="https://via.placeholder.com/400x300" alt="Sample 2" class="rounded shadow">
+        <img src="https://via.placeholder.com/400x300" alt="Sample 3" class="rounded shadow">
+      </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hi, I'm [Your Name], a passionate photographer dedicated to capturing the beauty of the world through my lens. With a keen eye for detail and a love for storytelling, I specialize in [mention your specialties].</p>
+    <section id="about" class="my-12">
+      <h3 class="text-2xl font-medium mb-4">About Me</h3>
+      <p>
+        Hi, I'm Raghul — the eye behind Dream Clicks. I'm passionate about storytelling through photography. I specialize in weddings, portraits, and candid moments that make memories last.
+      </p>
     </section>
 
+    <section id="contact" class="my-12">
+      <h3 class="text-2xl font-medium mb-4">Contact</h3>
+      <p>Reach me at: <a href="mailto:dreamclicks03@gmail.com" class="text-blue-600 underline">dreamclicks03@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer class="text-center p-4 text-gray-500">
+    &copy; 2025 Dream Clicks. All rights reserved.
+  </footer>
+</body>
+</html>
